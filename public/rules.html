@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proctored Exam Instructions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        h2 i {
+            margin-right: 10px;
+            color: #3498db;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #ecf0f1;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        li:hover {
+            background-color: #dfe6e9;
+        }
+
+        li i {
+            color: #3498db;
+            margin-right: 10px;
+        }
+
+        .important {
+            color: red;
+            font-weight: bold;
+        }
+
+        .note {
+            background-color: #fffbcc;
+            padding: 15px;
+            border-left: 5px solid #ffeb3b;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Proctored Exam Instructions</h1>
+
+        <p>Welcome to your proctored exam! Please read the following instructions carefully before starting the exam.</p>
+
+        <h2><i class="fas fa-info-circle"></i> General Instructions</h2>
+        <ul>
+            <li><i class="fas fa-wifi"></i> Ensure that you have a stable internet connection throughout the duration of the exam.</li>
+            <li><i class="fas fa-globe"></i> Use only the <strong>approved browser</strong> (e.g., Google Chrome, Mozilla Firefox) for the exam.</li>
+            <li><i class="fas fa-video"></i> Keep your webcam and microphone turned on at all times during the exam for monitoring purposes.</li>
+            <li><i class="fas fa-window-close"></i> Do not open any other applications, websites, or devices during the exam.</li>
+            <li><i class="fas fa-ban"></i> <span class="important">No external materials (notes, books, or other aids) are allowed unless explicitly stated.</span></li>
+        </ul>
+
+        <h2><i class="fas fa-id-card"></i> Identification & Authentication</h2>
+        <ul>
+            <li><i class="fas fa-id-badge"></i> You must present a valid ID to the proctor at the beginning of the exam.</li>
+            <li><i class="fas fa-user-circle"></i> Ensure your face is clearly visible on the webcam at all times.</li>
+        </ul>
+
+        <h2><i class="fas fa-door-closed"></i> Exam Environment</h2>
+        <ul>
+            <li><i class="fas fa-door-open"></i> Take the exam in a quiet and well-lit room where there will be no disturbances.</li>
+            <li><i class="fas fa-desk"></i> Your desk must be clear of any unauthorized materials.</li>
+            <li><i class="fas fa-users"></i> Make sure no other individuals are present in the room during the exam.</li>
+        </ul>
+
+        <h2><i class="fas fa-tasks"></i> During the Exam</h2>
+        <ul>
+            <li><i class="fas fa-tools"></i> If you encounter technical difficulties, immediately notify the proctor through the provided communication channel.</li>
+            <li><i class="fas fa-exclamation-triangle"></i> Refrain from any form of cheating. Violations will result in disqualification and further disciplinary actions.</li>
+            <li><i class="fas fa-chair"></i> Do not leave your seat without prior permission from the proctor.</li>
+        </ul>
+
+        <h2><i class="fas fa-clock"></i> Exam Timing</h2>
+        <ul>
+            <li><i class="fas fa-hourglass-half"></i> The exam is timed. Make sure to manage your time effectively.</li>
+            <li><i class="fas fa-alarm-clock"></i> The exam will automatically submit when the time limit is reached.</li>
+        </ul>
+
+        <div class="note">
+            <strong><i class="fas fa-exclamation-circle"></i> Note:</strong> Any suspicious behavior or actions may result in immediate termination of the exam.
+        </div>
+
+        <a href="index.html" class="btn">Start Exam</a>
+    </div>
+
+</body>
+</html>

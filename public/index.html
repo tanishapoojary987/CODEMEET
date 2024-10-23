@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proctored Exam Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body onload="startExam()">
+  <div class="exam-container">
+    <h1>Welcome to the Proctored Exam</h1>
+    <video id="webcam" autoplay muted></video>
+    <div id="exam-content">
+      <h2>Exam Questions</h2>
+      <p>Question 1: What is 2 + 2?</p>
+      <input type="text" placeholder="Enter your answer here">
+      <button onclick="submit()" style="background-color:aqua;">submit</button>
+      <!-- Add more questions as needed -->
+       <script>
+        function submit(){
+          window.location.href='login-copy.html';
+        }
+       </script>
+    </div>
+    <div id="warning" class="hidden">You have violated the exam policy!</div>
+  </div>
+</body>
+</html>
